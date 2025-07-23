@@ -1,0 +1,23 @@
+{
+	"hero": { "title": "Обучайтесь у профессионалов IT-Prof", "subtitle": "Лучшие курсы для вашего роста" },
+	"contact": {
+		"openButton": "Связаться с нами",
+		"title": "Связаться с нами",
+		"name": "Ваше имя",
+		"email": "E-mail",
+		"message": "Сообщение",
+		"send": "Отправить"
+	},
+	"header": {
+		"title": "IT-Prof",
+		"home": "Главная",
+		"courses": "Курсы",
+		"about": "О нас",
+		"contact": "Контакты",
+		"languageSwitcher": "Выбор языка"
+	},
+	"footer": {
+		"info": "© {year} IT-Prof | г. Ереван, Московян 3А",
+		"email": "info@it-prof.am"
+	}
+}

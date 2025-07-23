@@ -1,0 +1,23 @@
+{
+	"hero": { "title": "Learn from IT-Prof Professionals", "subtitle": "Top courses for your growth" },
+	"contact": {
+		"openButton": "Contact Us",
+		"title": "Contact Us",
+		"name": "Your Name",
+		"email": "E-mail",
+		"message": "Message",
+		"send": "Send"
+	},
+	"header": {
+		"title": "IT-Prof",
+		"home": "Home",
+		"courses": "Courses",
+		"about": "About Us",
+		"contact": "Contact",
+		"languageSwitcher": "Language Switcher"
+	},
+	"footer": {
+		"info": "© {year} IT-Prof | Yerevan, Moskovyan 3A",
+		"email": "info@it-prof.am"
+	}
+}

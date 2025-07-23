@@ -1,0 +1,27 @@
+.header {
+	background: var(--bg);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 1rem 0;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+.link {
+	color: var(--text);
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+.link:hover {
+	color: var(--primary);
+}
