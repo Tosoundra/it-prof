@@ -1,0 +1,33 @@
+{
+	"hero": {
+		"title": "Lernen Sie bei IT-Prof-Profis",
+		"subtitle": "Die besten Kurse für Ihr Wachstum"
+	},
+	"contact": {
+		"openButton": "Kontaktieren Sie uns",
+		"title": "Kontaktieren Sie uns",
+		"name": "Name",
+		"phone": "Telefon",
+		"message": "Ihre Frage",
+		"send": "Senden"
+	},
+	"header": {
+		"title": "IT-Prof",
+		"home": "Startseite",
+		"services": "Dienstleistungen",
+		"projects": "Projekte",
+		"contacts": "Kontakte",
+    "languageSwitcher": "Sprachumschalter",
+    "en": "Englisch",
+    "ru": "Russisch",
+    "am": "Armenisch",
+    "de": "Deutsch"
+	},
+	"features": {
+		"title": "Dienstleistungen"
+	},
+	"footer": {
+		"info": "© {year} IT-Prof | RA, Jerewan, Moskovian 3A",
+		"email": "info@it-prof.am"
+	}
+}

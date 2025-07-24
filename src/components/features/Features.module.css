@@ -1,58 +1,69 @@
+.section {
+  padding: 4rem 1rem;
+}
 .title {
-	text-align: center;
+  text-align: center;
+  color: var(--text);
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
-
-.features {
-	display: grid;
-	gap: 2rem;
-	margin: 4rem 0;
+.grid {
+  display: grid;
+  gap: 2rem;
 }
-
 @media (min-width: 768px) {
-	.features {
-		grid-template-columns: repeat(2, 1fr);
-	}
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
 .card {
-	background: rgba(255, 255, 255, 0.05);
-	padding: 2rem;
-	border-radius: 8px;
-	text-align: center;
-	overflow: hidden; /* Важно для анимации */
-	position: relative;
-	min-height: 200px; /* Фиксируем высоту для плавности */
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  align-items: flex-end;
+  transition: transform 0.3s ease;
 }
-
-.card h3 {
-	margin-bottom: 0.5rem;
+.card:hover {
+  transform: scale(1.03);
 }
-
-/* Новая обертка для контента */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease;
+}
+.card:hover .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+.cardContent {
+  position: relative;
+  color: #fff;
+  padding: 2rem;
+  z-index: 1;
+}
 .desc {
-	transition: transform 0.5s ease, opacity 0.3s ease;
-	width: 100%;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
-/* Начальное состояние - смещено вниз и прозрачно */
-.desc {
-	transform: translateY(40px);
-	opacity: 0;
-}
-
-/* При наведении - возвращаем в центр с плавной анимацией */
 .card:hover .desc {
-	transform: translateY(0);
-	opacity: 1;
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* Адаптация для мобильных устройств */
 @media (max-width: 767px) {
-	.desc {
-		transform: none;
-		opacity: 1;
-	}
+  .desc {
+    opacity: 1;
+    transform: none;
+  }
 }

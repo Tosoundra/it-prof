@@ -11,10 +11,14 @@
 	"header": {
 		"title": "IT-Prof",
 		"home": "Home",
-		"courses": "Courses",
-		"about": "About Us",
-		"contact": "Contact",
-		"languageSwitcher": "Language Switcher"
+		"services": "Services",
+		"projects": "Projects",
+		"contacts": "Contacts",
+		"languageSwitcher": "Language Switcher",
+		"en": "English",
+		"ru": "Russian",
+		"am": "Armenian",
+		"de": "German"
 	},
 	"features": {
 		"title": "Services"

@@ -18,6 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 						<Header />
 						<main>{children}</main>
 						<Footer />
+						<p>© {new Date().getFullYear()} IT-Prof</p>
 					</body>
 				}
 			</I18nProvider>
