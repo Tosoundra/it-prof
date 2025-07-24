@@ -16,6 +16,9 @@
 		"contact": "Contact",
 		"languageSwitcher": "Language Switcher"
 	},
+	"features": {
+		"title": "Services"
+	},
 	"footer": {
 		"info": "© {year} IT-Prof | Yerevan, Moskovyan 3A",
 		"email": "info@it-prof.am"

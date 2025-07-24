@@ -16,6 +16,9 @@
 		"contact": "Контакты",
 		"languageSwitcher": "Выбор языка"
 	},
+	"features": {
+		"title": "Услуги"
+	},
 	"footer": {
 		"info": "© {year} IT-Prof | г. Ереван, Московян 3А",
 		"email": "info@it-prof.am"

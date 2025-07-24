@@ -1,3 +1,5 @@
+'use client';
+import { useTranslations } from '@/config/i18n/i18n';
 import styles from './Features.module.css';
 
 const items = [
@@ -20,17 +22,21 @@ const items = [
 ];
 
 export default function Features() {
+	const t = useTranslations();
 	return (
-		<section className={styles.features}>
-			{items.map((f, i) => (
-				<div key={i} className={styles.card}>
-					{/* Добавлена обертка для анимированного контента */}
-					<div className={styles.cardContent}>
-						<h3>{f.title}</h3>
-						<p>{f.desc}</p>
+		<section>
+			<h2 className={styles.title}>{t.features.title}</h2>
+			<div className={styles.features}>
+				{items.map((f, i) => (
+					<div key={i} className={styles.card}>
+						{/* Добавлена обертка для анимированного контента */}
+						<div className={styles.cardContent}>
+							<h3>{f.title}</h3>
+							<p className={styles.desc}>{f.desc}</p>
+						</div>
 					</div>
-				</div>
-			))}
+				))}
+			</div>
 		</section>
 	);
 }
