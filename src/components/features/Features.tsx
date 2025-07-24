@@ -29,7 +29,6 @@ export default function Features() {
 			<div className={styles.features}>
 				{items.map((f, i) => (
 					<div key={i} className={styles.card}>
-						{/* Добавлена обертка для анимированного контента */}
 						<div className={styles.cardContent}>
 							<h3>{f.title}</h3>
 							<p className={styles.desc}>{f.desc}</p>
