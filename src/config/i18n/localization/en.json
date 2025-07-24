@@ -4,7 +4,7 @@
 		"openButton": "Contact Us",
 		"title": "Contact Us",
 		"name": "Your Name",
-		"email": "E-mail",
+		"phone": "Phone",
 		"message": "Message",
 		"send": "Send"
 	},

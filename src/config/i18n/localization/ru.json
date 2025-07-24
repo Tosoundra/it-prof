@@ -3,9 +3,9 @@
 	"contact": {
 		"openButton": "Связаться с нами",
 		"title": "Связаться с нами",
-		"name": "Ваше имя",
-		"email": "E-mail",
-		"message": "Сообщение",
+		"name": "Имя",
+		"phone": "Телефон",
+		"message": "Ваш вопрос",
 		"send": "Отправить"
 	},
 	"header": {

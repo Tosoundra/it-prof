@@ -19,7 +19,7 @@ export default function ContactModal() {
 						<h2 className={styles.title}>{t.contact.title}</h2>
 						<form className={styles.form} onSubmit={() => setOpen(false)}>
 							<input type='text' placeholder={t.contact.name} required className={styles.input} />
-							<input type='email' placeholder={t.contact.email} required className={styles.input} />
+							<input type='email' placeholder={t.contact.phone} required className={styles.input} />
 							<textarea placeholder={t.contact.message} rows={4} required className={styles.textarea} />
 							<button type='submit' className={styles.submitButton}>
 								{t.contact.send}

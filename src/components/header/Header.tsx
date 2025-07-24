@@ -13,7 +13,7 @@ export default function Header() {
 					<Link href='#features' className={styles.link}>
 						Услуги
 					</Link>
-					<Link href='/projects' className={styles.link}>
+					<Link href='#projects' className={styles.link}>
 						Проекты
 					</Link>
 					<Link href='#contact' className={styles.link}>
