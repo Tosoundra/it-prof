@@ -1,12 +1,30 @@
 {
-	"hero": { "title": "Learn from IT-Prof Professionals", "subtitle": "Top courses for your growth" },
+	"hero": {
+		"title": "Learn from IT-Prof Professionals",
+		"subtitle": "Top courses for your growth",
+		"slogan_1": "Team with international project experience",
+		"slogan_2": "Programming on various platforms",
+		"slogan_3": "Project implementation in 5 languages (Armenian, Bulgarian, Russian, English, German)",
+		"slogan_4": "Reasonable prices for services and training",
+		"slogan_5": "High quality of completed work"
+	},
 	"contact": {
 		"openButton": "Contact Us",
 		"title": "Contact Us",
 		"name": "Your Name",
 		"phone": "Phone",
 		"message": "Message",
-		"send": "Send"
+		"send": "Send",
+		"contacts":{
+			"email":{
+				"title": "Email",
+				"value": "info@it-prof.am"
+			},
+			"address": {
+				"title": "Address",
+				"value": "Yerevan, Moskovyan 3A"
+			}
+		}
 	},
 	"header": {
 		"title": "IT-Prof",
@@ -21,7 +39,16 @@
 		"de": "German"
 	},
 	"features": {
-		"title": "Services"
+		"title": "Services",
+		"items": [
+			{ "title": "Web Development", "description": "Creating modern and responsive websites" },
+			{ "title": "Mobile Development", "description": "Developing applications for iOS and Android" },
+			{ "title": "Consulting", "description": "Consultations on IT strategies and technologies" },
+			{ "title": "Training", "description": "Courses and training in programming and technologies" }
+		]
+	},
+	"projects": {
+		"title": "Technologies"
 	},
 	"footer": {
 		"info": "© {year} IT-Prof | Yerevan, Moskovyan 3A",

@@ -1,17 +1,13 @@
 'use client';
 import { useState, useEffect } from 'react';
 import styles from './SloganSlider.module.css';
-
-const slogans = [
-	'Команда с опытом международных проектов',
-	'Программирование на различных платформах',
-	'Реализация проектов на 5 языках (армянский, болгарский, русский, английский, немецкий)',
-	'Разумные цены на услуги и обучение',
-	'Высокое качество выполненных работ',
-];
+import { useSlogan } from './hooks/useSlogan';
 
 export default function SloganSlider() {
 	const [idx, setIdx] = useState(0);
+
+	const slogans = useSlogan();
+
 	useEffect(() => {
 		const timer = setInterval(() => setIdx((i) => (i + 1) % slogans.length), 5000);
 		return () => clearInterval(timer);

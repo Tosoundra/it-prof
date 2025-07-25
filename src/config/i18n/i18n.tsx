@@ -4,7 +4,7 @@ import en from './localization/en.json';
 import ru from './localization/ru.json';
 import am from './localization/am.json';
 import de from './localization/de.json';
-import { locales, defaultLocale } from './config';
+import { defaultLocale } from './config';
 
 export type Messages = typeof en;
 const resources: Record<string, Messages> = { en, ru, am, de };

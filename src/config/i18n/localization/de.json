@@ -1,7 +1,12 @@
 {
 	"hero": {
 		"title": "Lernen Sie bei IT-Prof-Profis",
-		"subtitle": "Die besten Kurse für Ihr Wachstum"
+		"subtitle": "Die besten Kurse für Ihr Wachstum",
+		"slogan_1": "Team mit internationaler Projekterfahrung",
+		"slogan_2": "Programmierung auf verschiedenen Plattformen",
+		"slogan_3": "Projektumsetzung in 5 Sprachen (Armenisch, Bulgarisch, Russisch, Englisch, Deutsch)",
+		"slogan_4": "Faire Preise für Dienstleistungen und Schulungen",
+		"slogan_5": "Hohe Qualität der abgeschlossenen Arbeiten"
 	},
 	"contact": {
 		"openButton": "Kontaktieren Sie uns",
@@ -9,7 +14,17 @@
 		"name": "Name",
 		"phone": "Telefon",
 		"message": "Ihre Frage",
-		"send": "Senden"
+		"send": "Senden",
+		"contacts": {
+			"email": {
+				"title": "E-Mail",
+				"value": "info@it-prof.am"
+			},
+			"address": {
+				"title": "Adresse",
+				"value": "Jerewan, Moskovyan 3A"
+			}
+		}
 	},
 	"header": {
 		"title": "IT-Prof",
@@ -17,14 +32,23 @@
 		"services": "Dienstleistungen",
 		"projects": "Projekte",
 		"contacts": "Kontakte",
-    "languageSwitcher": "Sprachumschalter",
-    "en": "Englisch",
-    "ru": "Russisch",
-    "am": "Armenisch",
-    "de": "Deutsch"
+		"languageSwitcher": "Sprachumschalter",
+		"en": "Englisch",
+		"ru": "Russisch",
+		"am": "Armenisch",
+		"de": "Deutsch"
 	},
 	"features": {
-		"title": "Dienstleistungen"
+		"title": "Dienstleistungen",
+		"items": [
+			{ "title": "Webentwicklung", "description": "Erstellung moderner und responsiver Websites" },
+			{ "title": "Mobile Entwicklung", "description": "Entwicklung von Anwendungen für iOS und Android" },
+			{ "title": "Beratung", "description": "Beratung zu IT-Strategien und Technologien" },
+			{ "title": "Schulung", "description": "Kurse und Schulungen in Programmierung und Technologien" }
+		]
+	},
+	"projects": {
+		"title": "Technologien"
 	},
 	"footer": {
 		"info": "© {year} IT-Prof | RA, Jerewan, Moskovian 3A",
